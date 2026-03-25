@@ -1,5 +1,6 @@
 # Build output
 out/
+out-test/
 
 # IDE files
 .idea/
@@ -15,3 +16,11 @@ Thumbs.db
 
 # JAR output
 *.jar
+
+# Node / Playwright
+node_modules/
+playwright-report/
+test-results/
+
+# JUnit 5 libs (downloaded at setup)
+lib/

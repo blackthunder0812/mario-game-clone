@@ -1,0 +1,29 @@
+{
+  "name": "super-mario-clone",
+  "version": "1.0.0",
+  "description": "A simple Super Mario Bros-style 2D platformer built in pure Java (Swing/AWT). No external libraries or sprite assets required — everything is rendered with coloured shapes.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "test:headed": "npx playwright test --headed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackthunder0812/mario-game-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blackthunder0812/mario-game-clone/issues"
+  },
+  "homepage": "https://github.com/blackthunder0812/mario-game-clone#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "serve": "^14.2.6"
+  }
+}
